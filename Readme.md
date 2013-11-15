@@ -14,21 +14,49 @@
 
 ## API
 
+#### Constructor
+
+##### Maybe
+    (a) -> Maybe a
+
+==========
+
+#### Instance methods
+
+##### .bind()
+    (a -> b) -> Maybe b
+
+  Passed function is automatically lifted.
+
+##### .{package_function}()
+  All package functions are partially applied with the monadic-value and exposed as properties on the `Maybe a` value. e.g.:
+
+    var some_unstable_value = Maybe(null);
+
+    // Pure style
+    Maybe.is_nothing(some_unstable_value)  // true
+
+    // Chain style
+    some_unstable_value.is_nothing()       // true
+
+==========
+
+#### Package Functions {...}
+
 ##### maybe
-    (else_value, (a -> b), monad_maybe) -> b
+    (else_value, (a -> b), Maybe a) -> b
 
 ##### is_nothing
-    (monad_maybe) -> Bool
+    (Maybe a) -> Bool
 
 ##### is_just
-    (monad_maybe) -> Bool
+    (Maybe a) -> Bool
 
 ##### from_just
-    (monad_maybe) -> Bool
+    (Maybe a) -> Bool
 
 ##### from_maybe
-    (else_value, monad_maybe) -> a
-
+    (else_value, Maybe a) -> a
 
 
 ## License
