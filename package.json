@@ -1,0 +1,20 @@
+{
+  "name": "maybe",
+  "version": "0.0.1",
+  "description": "Correct implementation of the Maybe monad in JavaScript",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "monad",
+    "maybe",
+    "logic",
+    "functional",
+    "errors"
+  ],
+  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~2.3.0"
+  }
+}
