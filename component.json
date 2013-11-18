@@ -2,7 +2,7 @@
   "name": "maybe",
   "repo": "jasonkuhrt/maybe",
   "description": "Correct implementation of the Maybe monad in JavaScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "monad",
     "maybe",

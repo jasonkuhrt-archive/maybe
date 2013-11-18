@@ -1,6 +1,6 @@
 {
   "name": "maybe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Correct implementation of the Maybe monad in JavaScript",
   "main": "index.js",
   "scripts": {},
