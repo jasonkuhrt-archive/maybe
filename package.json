@@ -3,8 +3,7 @@
   "version": "0.0.1",
   "description": "Correct implementation of the Maybe monad in JavaScript",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "monad",
     "maybe",
@@ -16,5 +15,6 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "lodash": "~2.3.0"
-  }
+  },
+  "repository": "git@github.com:jasonkuhrt/maybe.git"
 }
