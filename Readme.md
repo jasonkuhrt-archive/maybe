@@ -1,4 +1,4 @@
-# maybe
+# maybe [![Code Climate](https://codeclimate.com/github/jasonkuhrt/maybe.png)](https://codeclimate.com/github/jasonkuhrt/maybe)
 
   Correct implementation of the Maybe monad in JavaScript
 
